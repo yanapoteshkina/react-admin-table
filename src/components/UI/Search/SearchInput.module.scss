@@ -1,0 +1,11 @@
+@import './../../../styles/variables.module.scss';
+
+
+.Input{
+    padding: 10px 10px;
+    border: 1px solid $gray; 
+    color: $text-gray;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}

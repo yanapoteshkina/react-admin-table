@@ -1,0 +1,75 @@
+@import './../../../styles/variables.module.scss';
+
+
+.Button{
+    padding: 10px 10px;
+    border: 1px solid $gray; 
+    color: $text-gray;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: $white;
+    color: $text;
+    margin-right: 5px;
+    width: 150px;
+}
+
+.Button:hover{
+    background-color: $text-init;
+    color: $white;
+
+}
+
+
+.Buttons{
+    text-align: right;
+}
+
+.DatePicker{
+    width: fit-content;
+    border: 1px solid $gray; 
+    position: relative;
+   
+}
+.DatePickerContainer{
+    position: absolute;
+    background-color: $white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.Container{
+    display: flex;
+    border-bottom: 1px solid $gray; 
+}
+
+.List{
+    width: fit-content;
+    border-right: 1px solid $gray; 
+    >li{
+        padding: 10px 10px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    >li:hover{
+        background-color: $text-init;
+        color: $white;
+    
+    }
+
+
+}
+
+.active{
+    background-color: $text-init;
+    color: $white;
+
+}
+
+.DatePickers{
+    display: flex;
+
+}

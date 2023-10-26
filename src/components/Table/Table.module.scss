@@ -1,0 +1,80 @@
+@import './../../styles/variables.module.scss';
+
+
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    font-weight: bold;
+  }
+  
+  .tableRow {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $gray;
+  }
+  
+  .tableCell {
+    flex: 1;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $text-gray;
+  }
+  .tableCellNumber{
+    color: $text-init;
+
+  }
+  .tableCellComment{
+    width: 40%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $text-gray;
+
+  }
+
+  .tableCellChek {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .tableCell input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  .tableCell input{
+    outline: none;
+    width: 100%;
+  }
+  
+  .tableCell button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 14px;
+  }
+  
+  .tableCell button:focus {
+    outline: none;
+  }
+  
+  .tableRow.selected {
+    background-color: $gray;
+  }
+  

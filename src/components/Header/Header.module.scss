@@ -1,0 +1,36 @@
+@import './../../styles/variables.module.scss';
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RightSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Notif{
+    >i{
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+}
+
+.UserBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.UserInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >div i{
+        cursor: pointer;
+    }
+}

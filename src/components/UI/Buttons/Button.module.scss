@@ -1,0 +1,33 @@
+@import './../../../styles/variables.module.scss';
+
+
+.Button{
+    padding: 10px 10px;
+    border: 1px solid $gray; 
+    color: $text-gray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ButtonDark{
+    background-color: $gray;
+}
+
+.ButtonDefault{
+    background-color: $white;
+    color: $text;
+
+}
+
+.ButtonAddLead{
+    text-align: center;
+    background-color: $text-init;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+
+    >i{
+        color: $white;
+        font-size: 25px;
+    }
+}
